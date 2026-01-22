@@ -49,6 +49,7 @@ python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 
+pip install fastapi uvicorn pyjwt
 uvicorn insecure_api_crud:app --reload
 
 
