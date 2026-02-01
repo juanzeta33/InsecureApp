@@ -39,5 +39,5 @@ push:
 	        run: sonar-scanner \
 	          -Dsonar.projectKey=mi_proyecto_seguro \
 	          -Dsonar.sources=. \
-45.	          -Dsonar.host.url=$SONAR_HOST_URL \
-46.	          -Dsonar.token=$SONAR_TOKEN
+	          -Dsonar.host.url=$SONAR_HOST_URL \
+	          -Dsonar.token=$SONAR_TOKEN
