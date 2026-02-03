@@ -8,6 +8,7 @@ import logging
 import subprocess
 import requests
 
+
 app = FastAPI(title="Insecure Demo API (Sonar Alerts)")
 
 logging.basicConfig(level=logging.INFO)
